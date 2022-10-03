@@ -1,20 +1,24 @@
-## My Web Application (Add your Title here)
+## Project Name (Add your Title here)
 
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Contents](#content)
+## Names of Contributors
 
-## General Info
+## Brief Project Description
 This browser based web application to ...
 	
-## Technologies
+## Technologies Used
 Technologies used for this project:
 * HTML, CSS
 * JavaScript
 * Bootstrap 
 * ...
+
+## Complete setup/installion/usage
+
+## Known Bugs
+
+## Features for Future
 	
-## Content
+## Contents of Folder
 Content of the project folder:
 
 ```
@@ -38,7 +42,4 @@ Firebase hosting files:
 
 ```
 
-Tips for file naming files and folders:
-* use lowercase with no spaces
-* use dashes (not underscore) for word separation
 
