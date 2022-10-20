@@ -1,6 +1,6 @@
 # Project Title or Name
 
-## 1. Brief Project Description
+## 1. Project Description
 This browser based web application to ... 
 
 
