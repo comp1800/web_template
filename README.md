@@ -41,6 +41,8 @@ Example:
 ---
 
 ## Project Structure
+
+Example:
 ```
 project-name/
 ├── src/
@@ -72,11 +74,15 @@ Example:
 
 ## Limitations and Future Work
 ### Limitations
+
+Example:
 - Currently, the app only supports city-based weather searches.
 - Limited to basic weather parameters like temperature, humidity, and conditions.
 - The user interface can be further enhanced for accessibility.
 
 ### Future Work
+
+Example: 
 - Add support for location-based weather detection using GPS.
 - Implement additional weather parameters like wind speed and UV index.
 - Create a dark mode for better usability in low-light conditions.
@@ -85,4 +91,6 @@ Example:
 ---
 
 ## License
+
+Example:
 This project is licensed under the MIT License. See the LICENSE file for details.
