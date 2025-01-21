@@ -2,14 +2,19 @@
 # Project Name
 
 ## Overview
-A brief description of your project, its purpose, and the problem it solves.
+Summarize your project's purpose, problem solved, key features, user benefits, development context, and main technologies used.
 
-Example:  
-"This is a simple weather app that fetches and displays real-time weather data for any city. It was developed as part of the [Course Name] course to demonstrate the use of APIs and responsive web design."
+Example:
+
+This client-side JavaScript web application provides real-time weather updates for cities worldwide. It simplifies accessing weather information through an intuitive mobile-first interface, allowing users to input a city name and receive data on temperature, humidity, and conditions.
+
+Developed for the [Course Name] course, applying User-Centred Design practices, agile project management processes, integrating a weather API, and Firebase backend services.
 
 ---
 
 ## Features
+
+Example:
 - Real-time weather updates for any city.
 - Responsive design for desktop and mobile.
 - Displays temperature, humidity, and weather conditions.
@@ -17,6 +22,8 @@ Example:
 ---
 
 ## Technologies Used
+
+Example:
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Firebase for hosting
 - **Database**: Firestore
@@ -25,6 +32,8 @@ Example:
 ---
 
 ## Usage
+
+Example:
 1. Open your browser and visit `http://localhost:3000`.
 2. Enter the name of the city in the search bar and press enter.
 3. View the weather information displayed on the screen.
@@ -47,12 +56,14 @@ project-name/
 ---
 
 ## Contributors
-- **Your Name** - Developer, Computer Science Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
-- **Teammate Name** - Collaborator, Frontend enthusiast with a knack for creative design. Fun fact: Has a collection of over 50 houseplants.
+- **Your Name** - BCIT CST Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
+- **Teammate Name** - BCIT CST Student, Frontend enthusiast with a knack for creative design. Fun fact: Has a collection of over 50 houseplants.
 
 ---
 
 ## Acknowledgments
+
+Example:
 - Weather data sourced from [OpenWeatherMap](https://openweathermap.org/).
 - Code snippets for ___ algoirthm were adapted from resources such as [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/).
 - Icons sourced from [FontAwesome](https://fontawesome.com/) and images from [Unsplash](https://unsplash.com/).
