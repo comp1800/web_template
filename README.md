@@ -1,61 +1,77 @@
-# Project Title
 
-## 1. Project Description
-State your app in a nutshell, or one-sentence pitch. Give some elaboration on what the core features are.  
-This browser based web application to ... 
+# Project Name
 
-## 2. Names of Contributors
-List team members and/or short bio's here... 
-* ...
-* ...
-* ...
-	
-## 3. Technologies and Resources Used
-List technologies (with version numbers), API's, icons, fonts, images, media or data sources, and other resources that were used.
-* HTML, CSS, JavaScript
-* Bootstrap 5.0 (Frontend library)
-* Firebase 8.0 (BAAS - Backend as a Service)
-* ...
+## Overview
+A brief description of your project, its purpose, and the problem it solves.
 
-## 4. Complete setup/installion/usage
-State what a user needs to do when they come to your project.  How do others start using your code or application?
-Here are the steps ...
-* ...
-* ...
-* ...
+Example:  
+"This is a simple weather app that fetches and displays real-time weather data for any city. It was developed as part of the [Course Name] course to demonstrate the use of APIs and responsive web design."
 
-## 5. Known Bugs and Limitations
-Here are some known bugs:
-* ...
-* ...
-* ...
+---
 
-## 6. Features for Future
-What we'd like to build in the future:
-* ...
-* ...
-* ...
-	
-## 7. Contents of Folder
-Content of the project folder:
+## Features
+- Real-time weather updates for any city.
+- Responsive design for desktop and mobile.
+- Displays temperature, humidity, and weather conditions.
 
+---
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Firebase for hosting
+- **Database**: Firestore
+- **API**: OpenWeatherMap API
+
+---
+
+## Usage
+1. Open your browser and visit `http://localhost:3000`.
+2. Enter the name of the city in the search bar and press enter.
+3. View the weather information displayed on the screen.
+
+---
+
+## Project Structure
 ```
- Top level of project folder: 
-├── .gitignore               # Git ignore file
-├── index.html               # landing HTML file, this is what users see when you come to url
-└── README.md
-
-It has the following subfolders and files:
-├── .git                     # Folder for git repo
-├── images                   # Folder for images
-    /blah.jpg                # Acknowledge source
-├── scripts                  # Folder for scripts
-    /blah.js                 # 
-├── styles                   # Folder for styles
-    /blah.css                # 
-
-
-
+project-name/
+├── src/
+│   ├── index.html
+│   ├── style.css
+│   ├── app.js
+│   └── components/
+├── package.json
+├── README.md
+└── .gitignore
 ```
 
+---
 
+## Contributors
+- **Your Name** - Developer, Computer Science Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
+- **Teammate Name** - Collaborator, Frontend enthusiast with a knack for creative design. Fun fact: Has a collection of over 50 houseplants.
+
+---
+
+## Acknowledgments
+- Weather data sourced from [OpenWeatherMap](https://openweathermap.org/).
+- Code snippets for ___ algoirthm were adapted from resources such as [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/).
+- Icons sourced from [FontAwesome](https://fontawesome.com/) and images from [Unsplash](https://unsplash.com/).
+
+---
+
+## Limitations and Future Work
+### Limitations
+- Currently, the app only supports city-based weather searches.
+- Limited to basic weather parameters like temperature, humidity, and conditions.
+- The user interface can be further enhanced for accessibility.
+
+### Future Work
+- Add support for location-based weather detection using GPS.
+- Implement additional weather parameters like wind speed and UV index.
+- Create a dark mode for better usability in low-light conditions.
+- Integrate user accounts for saving favorite locations.
+
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
