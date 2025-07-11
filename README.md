@@ -1,4 +1,3 @@
-
 # Project Name
 
 ## Overview
@@ -6,9 +5,9 @@ Summarize your project's purpose, problem solved, key features, user benefits, d
 
 Example:
 
-This client-side JavaScript web application provides real-time weather updates for cities worldwide. It simplifies accessing weather information through an intuitive mobile-first interface, allowing users to input a city name and receive data on temperature, humidity, and conditions.
+This project is a client-side JavaScript web application built using [Vite](https://vitejs.dev/), providing a fast and modern development experience. It offers real-time weather updates for cities worldwide through an intuitive, mobile-first interface. Users can input a city name and receive data on temperature, humidity, and conditions.
 
-Developed for the [Course Name] course, applying User-Centred Design practices, agile project management processes, integrating a weather API, and Firebase backend services.
+Developed for the COMP 1800 course, applying User-Centred Design practices, agile project management processes, integrating a weather API, and Firebase backend services. The project now leverages Vite for rapid development and optimized builds.
 
 ---
 
@@ -25,6 +24,7 @@ Example:
 
 Example:
 - **Frontend**: HTML, CSS, JavaScript
+- **Build Tool**: [Vite](https://vitejs.dev/)
 - **Backend**: Firebase for hosting
 - **Database**: Firestore
 - **API**: OpenWeatherMap API
@@ -34,9 +34,11 @@ Example:
 ## Usage
 
 Example:
-1. Open your browser and visit `http://localhost:3000`.
-2. Enter the name of the city in the search bar and press enter.
-3. View the weather information displayed on the screen.
+1. Install dependencies with `npm install`.
+2. Start the development server with `npm run dev` (served by Vite).
+3. Open your browser and visit the local address shown in the terminal (typically `http://localhost:5173`).
+4. Enter the name of the city in the search bar and press enter.
+5. View the weather information displayed on the screen.
 
 ---
 
@@ -46,10 +48,12 @@ Example:
 ```
 project-name/
 ├── src/
-│   ├── index.html
+│   ├── main.js
+├── public/
+├── styles/
 │   ├── style.css
-│   ├── app.js
-│   └── components/
+├── images/
+├── index.html
 ├── package.json
 ├── README.md
 └── .gitignore
