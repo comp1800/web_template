@@ -1,24 +1,23 @@
-# Project Name
+# Elmo Hikes
+
 
 ## Overview
-Summarize your project's purpose, problem solved, key features, user benefits, development context, and main technologies used.
+Elmo Hikes is a client-side JavaScript web application that helps users discover and explore hiking trails. The app displays a curated list of hike trails, each with details such as name, location, difficulty, and an image. Users can browse the list and mark their favorite trails for easy access later.
 
-Example:
-
-This project is a client-side JavaScript web application built using [Vite](https://vitejs.dev/), providing a fast and modern development experience. It offers real-time weather updates for cities worldwide through an intuitive, mobile-first interface. Users can input a city name and receive data on temperature, humidity, and conditions.
-
-Developed for the COMP 1800 course, applying User-Centred Design practices, agile project management processes, integrating a weather API, and Firebase backend services. The project now leverages Vite for rapid development and optimized builds.
+Developed for the COMP 1800 course, this project applies User-Centred Design practices and agile project management, and demonstrates integration with Firebase backend services for storing user favorites.
 
 ---
+
 
 ## Features
 
-Example:
-- Real-time weather updates for any city.
-- Responsive design for desktop and mobile.
-- Displays temperature, humidity, and weather conditions.
+- Browse a list of curated hiking trails with images and details
+- Mark and unmark trails as favorites
+- View a personalized list of favorite hikes
+- Responsive design for desktop and mobile
 
 ---
+
 
 ## Technologies Used
 
@@ -27,74 +26,69 @@ Example:
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Backend**: Firebase for hosting
 - **Database**: Firestore
-- **API**: OpenWeatherMap API
 
 ---
+
 
 ## Usage
 
-Example:
-1. Install dependencies with `npm install`.
-2. Start the development server with `npm run dev` (served by Vite).
-3. Open your browser and visit the local address shown in the terminal (typically `http://localhost:5173`).
-4. Enter the name of the city in the search bar and press enter.
-5. View the weather information displayed on the screen.
+1. Open your browser and visit `http://localhost:3000`.
+2. Browse the list of hiking trails displayed on the main page.
+3. Click the heart icon (or similar) to mark a trail as a favorite.
+4. View your favorite hikes in the favorites section.
 
 ---
 
+
 ## Project Structure
 
-Example:
 ```
-project-name/
+elmo-hikes/
 ├── src/
 │   ├── main.js
-├── public/
 ├── styles/
-│   ├── style.css
+│   └── style.css
+├── public/
 ├── images/
 ├── index.html
 ├── package.json
 ├── README.md
-└── .gitignore
 ```
 
 ---
 
+
 ## Contributors
-- **Your Name** - BCIT CST Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
+- **Your Name** - BCIT CST Student with a passion for outdoor adventures and user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
 - **Teammate Name** - BCIT CST Student, Frontend enthusiast with a knack for creative design. Fun fact: Has a collection of over 50 houseplants.
 
 ---
 
+
 ## Acknowledgments
 
-Example:
-- Weather data sourced from [OpenWeatherMap](https://openweathermap.org/).
-- Code snippets for ___ algoirthm were adapted from resources such as [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/).
+- Trail data and images are for demonstration purposes only.
+- Code snippets were adapted from resources such as [Stack Overflow](https://stackoverflow.com/) and [MDN Web Docs](https://developer.mozilla.org/).
 - Icons sourced from [FontAwesome](https://fontawesome.com/) and images from [Unsplash](https://unsplash.com/).
 
 ---
 
+
 ## Limitations and Future Work
 ### Limitations
 
-Example:
-- Currently, the app only supports city-based weather searches.
-- Limited to basic weather parameters like temperature, humidity, and conditions.
-- The user interface can be further enhanced for accessibility.
+- Limited trail details (e.g., no live trail conditions).
+- Accessibility features can be further improved.
 
 ### Future Work
 
-Example: 
-- Add support for location-based weather detection using GPS.
-- Implement additional weather parameters like wind speed and UV index.
+- Implement map view and trailhead directions.
+- Add filtering and sorting options (e.g., by difficulty, distance).
 - Create a dark mode for better usability in low-light conditions.
-- Integrate user accounts for saving favorite locations.
 
 ---
 
+
 ## License
 
-Example:
 This project is licensed under the MIT License. See the LICENSE file for details.
